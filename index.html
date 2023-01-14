@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<!-- Add icon library 
+writing code helper: https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp
+-->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css"> -->
+<script src="https://kit.fontawesome.com/2deca7af33.js" crossorigin="anonymous"></script>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+a:link
+{
+  font-family: 'Open Sans';
+  font-size:15px;
+  color: rgb(154,86,65);
+  text-decoration: none;
+}
+a:visited
+{
+  font-family: 'Open Sans';
+  font-size:15px;
+  color: rgb(87,49,36);
+  text-decoration: none;
+}
+a:hover
+{
+  font-family: 'Open Sans';
+  font-size:15px;
+  font-weight: bold;
+  color: rgb(80,109,34);
+} 
+
+* {
+  box-sizing: border-box;
+}
+.btn {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 20ptx;
+  cursor:pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgba(0,0,0, 0.65); /* Black w/opacity/see-through */;
+}
+.hbtn {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(148,175,128);
+  border: none;
+  padding: 12px 16px;
+  font-size: 20ptx;
+  cursor:pointer;
+}
+.hbtn:hover {
+  background-color: rgba(0,0,0, 0.65); /* Black w/opacity/see-through */;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("/plants/IMG_6595.jpeg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(1,1,1, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+<title>Tito Babatunde</title>
+</head>
+<body>
+
+<div class="bg-image"></div> 
+</div>
+  
+<div class="bg-text">
+  <button 
+    onclick="window.location.href='index.html';" 
+    class="hbtn"><i class="fa-solid fa-house-chimney"></i>
+  </button>
+  
+  <button 
+    onclick="window.location.href='research.html';" 
+    class="btn"><i class="fa-solid fa-laptop-code"></i>
+  </button>
+  
+  <button 
+    onclick="window.location.href='plant.html';" 
+    class="btn"><i class="fa-solid fa-plant-wilt"></i>
+  </button>
+  
+  <button 
+    onclick="window.location.href='climbing.html';" 
+    class="btn"><i class="fa-solid fa-hill-rockslide"></i>
+  </button>
+  
+  <button 
+    onclick="window.location.href='silks.html';" 
+    class="btn"><i class="fa-solid fa-masks-theater"></i>
+  </button>
+  
+  <h2 style="font-size: 30px;">Tito Babatunde</h2>
+  <h2><a style="font-size: 25px;color:rgb(148,175,128)" 
+        href=bbabatun@cmu.edu>bbabatun@cmu.edu</a></h2>
+  
+  <p style="text-align: justify">
+    Hello! I'm a PhD Candidate in the Mechanical Engineering Department 
+    at Carnegie Mellon University, working with 
+    <a href="https://www.meche.engineering.cmu.edu/directory/bios/taylor-rebecca.html">
+      Rebecca Taylor</a> in the Microsystems and Mechanobiology Lab (MMBL) and
+    <a href="https://www.meche.engineering.cmu.edu/directory/bios/cagan-jonathan.html">
+      Jonathan Cagan</a> with the Integrated Design Innovation Group (IDIG) on novel approaches 
+    to generate complex DNA nanostructures. I graduated from Texas Tech University where I recieved my Bachelors of Science in Mechanical 
+    Engineering and minor in Computer Science and Mathematics. I am a <a href="https://ndseg.org/">DoD NDSEG</a> Fellow (2021). My research interests include metaheuristics and DNA Origami nanosensors.
+
+  </p>
+</div>
+</body>
+</html>
